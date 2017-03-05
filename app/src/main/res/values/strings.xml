@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RedditClient</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="please_wait">Please wait</string>
+    <string name="updating_subreddits">Updating Subreddits</string>
+    <string name="using_offline_subreddits">Using offline Subreddits list</string>
+    <string name="no_network_available">No network available</string>
+    <string name="subreddits_updated">Subreddits updated</string>
+    <string name="error_updating">Error updating. Please try again.</string>
+    <string name="by_author">by Edwin González</string>
+    <string name="redditclient">RedditClient</string>
+    <string name="click_for_details">Click on any Subreddit to see its details here :)</string>
+</resources>

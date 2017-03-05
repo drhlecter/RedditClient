@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_subreddit_whole_layout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#FFF"
+    android:layout_marginBottom="2dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp">
+
+    <ImageView
+        android:id="@+id/item_subreddit_icon_imageview"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_subreddit_icon_imageview"
+        android:layout_toEndOf="@id/item_subreddit_icon_imageview"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/item_subreddit_display_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dummy Display Name"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/item_subreddit_header_title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_subreddit_display_name_textview"
+            android:text="Dummy Description"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
