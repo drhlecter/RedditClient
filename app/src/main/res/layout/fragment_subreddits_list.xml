@@ -11,7 +11,9 @@
         android:id="@+id/subreddits_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ECEFF1"/>
+        android:background="#ECEFF1"
+        tools:listitem="@layout/item_subreddit"
+        />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/update_subreddits_button"
